@@ -1,0 +1,12 @@
+[2026-02-01 19:59:57.289095]
+User: do you have discounts
+Bot: We sell electronics, accessories, and lifestyle products.
+
+[2026-02-01 20:00:09.000764]
+User: track order
+Bot: Please provide your order ID to track your shipment.
+
+[2026-02-01 20:00:21.966831]
+User: payment methods
+Bot: We accept UPI, cards, net banking, and cash on delivery.
+

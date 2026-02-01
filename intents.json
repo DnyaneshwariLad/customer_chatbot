@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hii", "heyy"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Welcome! How may I assist?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["opening hours", "working time", "when are you open", "business hours", "shop timing"],
+      "responses": ["We are open from 9 AM to 8 PM, Monday to Saturday."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone", "email", "customer care", "support number"],
+      "responses": ["Reach us at support@example.com or call 9876543210."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund", "return", "money back", "cancel order"],
+      "responses": ["Refunds are processed within 5–7 business days after approval."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["order status", "track order", "where is my order", "delivery status"],
+      "responses": ["Please provide your order ID to track your shipment."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["payment", "upi", "credit card", "debit card", "cash on delivery"],
+      "responses": ["We accept UPI, cards, net banking, and cash on delivery."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["shipping", "delivery time", "how long delivery", "dispatch"],
+      "responses": ["Delivery usually takes 3–5 business days."]
+    },
+    {
+      "tag": "products",
+      "patterns": ["products", "items", "catalog", "what do you sell"],
+      "responses": ["We sell electronics, accessories, and lifestyle products."]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["warranty", "guarantee", "replacement"],
+      "responses": ["All products come with 1 year warranty."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["complaint", "problem", "issue", "not working"],
+      "responses": ["Sorry about that. Please explain your issue and we’ll help immediately."]
+    },
+    {
+      "tag": "discount",
+      "patterns": ["discount", "offer", "sale", "coupon"],
+      "responses": ["Current offers are available on our website homepage."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["location", "address", "where are you located"],
+      "responses": ["We are located in Delhi, India with pan-India delivery."]
+    },
+    {
+      "tag": "account",
+      "patterns": ["create account", "login", "sign up", "register"],
+      "responses": ["You can register using your email or phone number."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["feedback", "review", "suggestion"],
+      "responses": ["We love feedback! Please share your thoughts."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit", "quit", "see you"],
+      "responses": ["Goodbye!", "Thanks for chatting!", "Have a wonderful day!"]
+    }
+  ]
+}
